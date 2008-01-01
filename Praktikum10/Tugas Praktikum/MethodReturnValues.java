@@ -1,0 +1,12 @@
+public class MethodReturnValues {
+	public static void main(String[] args) {
+		myMethod();
+		int myInt = myMethod();
+		System.out.println(myInt);
+	}
+	
+	static int myMethod() {
+		System.out.println("This computer is lagging!");
+		return 4;
+	}
+}
